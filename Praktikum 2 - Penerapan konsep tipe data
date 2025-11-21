@@ -1,0 +1,327 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMiYhJuWjZpUfLnPSco8I5Q",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/husnah-rplgank/Phyton-gng/blob/main/Praktikum%202%20-%20Penerapan%20konsep%20tipe%20data\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "**TIPE DATA**"
+      ],
+      "metadata": {
+        "id": "0Gl_ONHLa2r_"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Tipe data adalah suatu media atau memori pada komputer yang digunakan untuk menampung informasi. Phyton sendiri mempunyai tipe data yang cukup unik bila kita bandingkan dengan bahasa pemrograman yang lain. Berikut adalah tipe data dari bahasa pemrograman Phyton:"
+      ],
+      "metadata": {
+        "id": "3S1L-j_3bQoY"
+      }
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 2,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "rQFlkL_BZaDX",
+        "outputId": "fa9160d8-f16c-4090-f066-48293e74af2e"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "True\n"
+          ]
+        }
+      ],
+      "source": [
+        "#tipe data Boolean\n",
+        "print(True)\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Menyatakan benar True yang bernilai 1, atau salah False yang bernilai 0"
+      ],
+      "metadata": {
+        "id": "qqQsMUFUcJ_1"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#tipe data String\n",
+        "print(\"string dengan menggunakan tanda kutip dua\")\n",
+        "print('ini string menggunakan tanda kutip satu')"
+      ],
+      "metadata": {
+        "id": "GT8nou7WcRrW"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Menyatakan karakter/kalimat bisa berupa huruf, angka, DLL (diapit tanda \" atau ' )"
+      ],
+      "metadata": {
+        "id": "LMRMhmlocdZB"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Dalam hal menjelaskan beberapa karakter pada String, dijelaskan sebagai berikut:"
+      ],
+      "metadata": {
+        "id": "9aOKuIA1dLeH"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#tipe data string dengan menjelaskan spesial karakter atau escape sequences\n",
+        "print('ini adalah tanda single quote (\\')')\n",
+        "print(\"ini adalah tanda double quote (\\\")\")\n",
+        "print(\"ini adalah tanda slash (\\\\)\")\n",
+        "print(\"Algoritma\\nPemrograman\") #menggunakan \\n\n",
+        "print(\"Algoritma\\bPemrograman\") #menggunakan \\b\n",
+        "print(\"Algoritma\\tPemrograman\") #menggunakan \\t\n",
+        "print(\"Algoritma\\rPemrograman\") #menggunakan \\b"
+      ],
+      "metadata": {
+        "id": "uXL6xlIXc0Df"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#tipe data Integer\n",
+        "print(20)"
+      ],
+      "metadata": {
+        "id": "w5LqybIwdVSv"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Menyatakan bilangan Bulat"
+      ],
+      "metadata": {
+        "id": "Gi0rtDPgd7fH"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#tipe data Float\n",
+        "print(3.14)\n",
+        "print(.2)\n",
+        "print(4.2e-3)"
+      ],
+      "metadata": {
+        "id": "xO3mlJiBoono"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Menyatakan bilangan yang mempunyai koma"
+      ],
+      "metadata": {
+        "id": "s-2Y362Toudt"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#tipe data Binary\n",
+        "print(0b10)"
+      ],
+      "metadata": {
+        "id": "8xQIHhsdpH5l"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Menyatakan bilangan dalam format binary/biner (Bilangan berbasis 2)"
+      ],
+      "metadata": {
+        "id": "WeyeHvOqpQ2R"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#tipe data octal\n",
+        "print(0o10)"
+      ],
+      "metadata": {
+        "id": "MfWeAAjgpfAn"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Menyatakan bilangan dalam format oktal (bilangan berbasis 8)"
+      ],
+      "metadata": {
+        "id": "Qw7BImFYphkP"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#tipe data Hexadecimal\n",
+        "print('tipe data heksa desimal',0x10)"
+      ],
+      "metadata": {
+        "id": "W3wvK_1hpoQY"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Menyatakan bilangan dalam format heksa (Bilangan berbasis 16)"
+      ],
+      "metadata": {
+        "id": "Fkor5HpqpqaU"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#tipe data Complex\n",
+        "print(5j)"
+      ],
+      "metadata": {
+        "id": "xN2U8ddqpw95"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Menyatakan pasangan angka real dan imajiner"
+      ],
+      "metadata": {
+        "id": "XJvB6ihUp1l9"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#tipe data List\n",
+        "print([1,2,3,4,5])\n",
+        "print([\"satu\", \"dua\", \"tiga\"])"
+      ],
+      "metadata": {
+        "id": "y7Wbp4G0p9eD"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Data untaian yang menyimpan berbagai tipe data dan isinya bisa berubah-ubah"
+      ],
+      "metadata": {
+        "id": "ULLs_mInqCN6"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#tipe data Tuple\n",
+        "print((1,2,3,4,5))\n",
+        "print((\"satu\", \"dua\", \"tiga\"))"
+      ],
+      "metadata": {
+        "id": "_eMTR2F4qKMd"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Data untaian yang menyimpan berbagai tipe data tapi isinya tidak bisa diubah"
+      ],
+      "metadata": {
+        "id": "SODifdDjqRrP"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#tipe data Dictionary\n",
+        "print({\"nama\":\"Budi\", 'umur':20})\n",
+        "#tipe data Dictionary dimasukan ke dalam variabel biodata\n",
+        "biodata = {\"nama\":\"Budi\", 'umur':21} #proses inisialisasi variabel biodata\n",
+        "print(biodata) #proses pencetakan variabel biodata yang berisi tipe data Dictionary\n",
+        "type(biodata) #fungsi untuk mengecek jenis tipe data. akan tampil <class 'dict'> yang berarti dict adalah tipe data dictionary"
+      ],
+      "metadata": {
+        "id": "inwoZbH9rFBZ"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Data untaian yang menyimpan berbagai tipe data berupa pasangan penunjuk dan nilai"
+      ],
+      "metadata": {
+        "id": "JGnrXvf3rHda"
+      }
+    }
+  ]
+}
